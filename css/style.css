@@ -1,0 +1,85 @@
+/* ===================================
+    Google font
+====================================== */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700');
+
+.container{
+    background-color: black;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button h2{
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 991px){
+
+    .contain img{
+        max-width: 900px;
+    }
+    .contain2 img{
+        max-width: 900px;
+    }
+    .contain3 img{
+        max-width: 900px;
+    }
+    .footer img{
+        max-width: 900px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .contain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contain img{
+        max-width: 380px;
+        
+    }
+    .contain2 img{
+        max-width: 380px;
+    }
+    .contain3 img{
+        max-width: 380px;
+    }
+    .button h2{
+        font-size: 30px;
+    }
+    .footer img{
+        max-width: 380px;
+        
+    }
+}
