@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700');
 
 .container{
-    background-color: black;
+    background-color: brown;
+    
 }
 .contain{
     display: flex;
@@ -27,12 +28,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+    background-color: brown;
 }
 .button h2{
     color: aliceblue;
     font-weight: 900;
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .footer{
     display: flex;
